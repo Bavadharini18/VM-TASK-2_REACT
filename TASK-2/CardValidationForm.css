@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+.card-details{
+     display: flex;
+     flex-direction: row;
+}
+.Add-new{
+    text-align: end;
+    margin-top: 30px;
+    color: white;
+    border-radius: 8px;
+    padding: 5px;
+}
+.cardholder{
+    font-size: small;
+    font-weight: 400;
+}
+.cardnum{
+margin-right: 20px;
+font-size: small;
+}
+.expdate{
+    margin-right: 20px;
+    font-size: small;
+}
+.cvc{
+    margin-right: 30px;
+    font-size: small;
+}
+.cardholderName{
+    margin-right: 30px;
+    font-size: small;
+}
+#cardholderName{
+    width:700px ;
+    height: 25px;
+    border: 1px solid #989c9f;
+    border-radius: 8px;
+    padding: 5px;
+}
+#cardNumber{
+    width:330px ;
+    height: 25px;
+    border: 1px solid #989c9f;
+    border-radius: 8px;
+    padding: 5px;
+}
+#expirationDate{
+    width:150px !important;
+    height: 25px;
+    border: 1px solid #989c9f;
+    border-radius: 8px;
+    padding: 5px;
+}
+#cvc{
+    width:150px !important;
+    height: 25px;
+    border: 1px solid #989c9f;
+    border-radius: 8px;
+    padding: 5px;
+}
+.details{
+    padding-top: 50px;
+}
+.head{
+    font-weight: 500;
+}
+.toggle-disabled{
+    width:250px !important;
+    height: 35px;
+    border-radius: 8px;
+    border: 1px solid #989c9f;
+    color:grey;
+    background:whitesmoke;
+}
+.toggle-disabled:hover{
+    width:250px !important;
+    height: 35px;
+    border-radius: 8px;
+    border: 1px solid #989c9f;
+    color:white;
+    background:rgb(61, 90, 254);
+}
+#cardNumber{
+    margin-bottom: 20px;
+}
+#expirationDate{
+    margin-bottom: 20px;    
+}
+#cvc{
+    margin-bottom: 20px;  
+}
+@media (max-width: 768px) {
+    .card-details{
+        flex-direction: column;
+      }
+      .details{
+        flex-direction: column;
+      }
+      #cardNumber{
+        width: 250px;
+      }
+      #cardholderName{
+        width: 250px;
+      }
+    }

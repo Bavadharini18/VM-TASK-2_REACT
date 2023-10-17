@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+code {
+    background: white;
+    border-radius: 6px;
+    color: #fff;
+    font:'Poppins';
+    padding: 24px 15px;
+    height: 100%;
+  }
+  .font1{
+    font-weight: 600;
+    font-size: 20px;
+  }
+  .head1{
+    font-weight: 500;
+  }
+  header
+ {
+    margin: 0 1.5% 0px 1.5%;
+    
+  }
+  .container .content{
+    display: flex;
+    height: 80vh;
+    margin-top: -20px;
+  }
+  .payment-section1{
+    width: 100%;
+  }
+.detail-box{
+  display: flex;
+  justify-content: space-between;
+}
+#number{
+  width:330px !important;
+    height: 25px;
+    border: 1px solid #989c9f;
+    border-radius: 8px;
+    padding: 5px;
+}
+.button{
+ height:30px;
+ color:white;
+ width: 100px;
+ margin-top: 24px;
+margin-right: 5px;
+border-radius: 8px;
+}
+.num{
+  font-size: small;
+  margin-right: 50px;
+}
+.cl-1 {width: 8.33%;}
+.cl-2 {width: 16.66%;}
+.cl-3 {width: 15%;}
+.cl-4 {width: 33.33%;}
+.cl-5 {width: 41.66%;}
+.cl-6 {width: 50%;}
+.cl-7 {width: 58.33%;}
+.cl-8 {width: 66.66%;}
+.cl-9 {width: 75%;}
+.cl-10 {width: 83.33%;}
+.cl-11 {width: 91.66%;}
+.cl-12 {width: 100%;}
+/* 
+.top{
+  border: 2px solid red;
+} */
+[class*="cl-"] {
+    float: left;
+    padding: 15px;
+  }
+  .Change-Password{
+    display: flex;
+}
+.change{
+    margin-right: 20px;
+    font-size: small;
+    margin-top: 25px;
+}
+.new{
+    margin-right: 20px;
+    font-size: small;
+    margin-top: 25px;
+    
+}
+.confirm{
+    margin-right: 20px;
+    font-size: small;
+    margin-top: 25px;
+}
+#currentPassword{
+    width:200px !important;
+    height: 25px;
+    border: 1px solid #989c9f;
+    border-radius: 8px;
+    padding: 5px;
+}
+#newPassword{
+    width:200px !important;
+    height: 25px;
+    border: 1px solid #989c9f;
+    border-radius: 8px;
+    padding: 5px;
+}
+#confirmPassword{
+    width:200px !important;
+    height: 25px;
+    border: 1px solid #989c9f;
+    border-radius: 8px;
+    padding: 5px;
+}
+.submit{
+    margin-top: 40px;
+    width:150px !important;
+    height: 35px;
+    border: 1px solid #989c9f;
+    border-radius: 8px;
+    color:#888888 ;
+    background:whitesmoke;
+}
+.submit:hover{
+    width:150px !important;
+    height: 35px;
+    border-radius: 8px;
+    border: 1px solid #989c9f;
+    color:white;
+    background:rgb(61, 90, 254);;
+}
+.submit1{
+   text-align: end;
+}
+.password{
+    margin-top: 60px;
+}
+.main-container1{
+  padding: 3px 15px;
+  height: 50%;
+  border-radius: 10px;
+  width: 80%;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+/* .sidebar{
+  border: 2px solid red;
+} */
+  @media (max-width: 768px){
+    .main-container1{
+      width: 106%;
+    }
+    .content{
+      flex-direction: column;
+      width: 80%;
+    }
+    #number{
+      width:200px !important;
+        height: 25px;
+        border: 1px solid #989c9f;
+        border-radius: 8px;
+        padding: 5px;
+        margin-right: 75px;
+    }
+    .detail-box{
+      flex-direction: column;
+    }
+    .Change-Password{
+     flex-direction: column;
+  }
+  }
+  
