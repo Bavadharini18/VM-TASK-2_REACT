@@ -145,20 +145,8 @@ border-radius: 8px;
   border: 2px solid red;
 } */
   @media (max-width: 768px){
-    .main-container1{
-      width: 106%;
-    }
     .content{
       flex-direction: column;
-      width: 80%;
-    }
-    #number{
-      width:200px !important;
-        height: 25px;
-        border: 1px solid #989c9f;
-        border-radius: 8px;
-        padding: 5px;
-        margin-right: 75px;
     }
     .detail-box{
       flex-direction: column;
