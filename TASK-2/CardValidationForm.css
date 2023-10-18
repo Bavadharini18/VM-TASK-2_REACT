@@ -96,10 +96,4 @@ font-size: small;
       .details{
         flex-direction: column;
       }
-      #cardNumber{
-        width: 250px;
-      }
-      #cardholderName{
-        width: 250px;
-      }
     }
