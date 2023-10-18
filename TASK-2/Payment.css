@@ -130,12 +130,8 @@ code {
 @media (max-width: 768px) {
   .main-container{
   flex-direction: column;
-   width: 140%;
  }
  .flex-container{
    flex-direction: column;
- }
- .card-details{
-   margin-top: 15px;
  }
   }
